@@ -8,6 +8,8 @@ So I can see:
 2. what it looks like; and
 3. if I can add a link to [my website](https://robincarnahan.app.cloud.gov/) and 🎉
 
+***And this is*** [how you do it](howto.html)
+
 💪 🖥 🇺🇸
 
 ## USA

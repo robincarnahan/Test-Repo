@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<h1 id="steven-and-greg-deserve-loads-of-praise-for-their-patience-and-teaching-skill"><em>Steven</em> and <em>Greg</em> deserve loads of praise for their patience and teaching skill</h1>
+<h2 id="heres-what-ive-learned-so-far">Here's what I've learned so far:</h2>
+<ol style="list-style-type: decimal">
+<li>How to <strong>write</strong> Markdown content in <strong>Atom</strong></li>
+<li>How to <strong>convert</strong> Markdown to html using <strong>Pandoc</strong></li>
+<li>How to <strong>save</strong> that content in <strong>Github</strong> (so TechRandy can make pull requests); and</li>
+<li>How to <strong>deploy</strong> that content to the internet using <strong>cloud.gov</strong></li>
+</ol>
+<h2 id="getting-started">Getting Started</h2>
+<ul>
+<li>First, from the command line you can find your last login by typing:</li>
+</ul>
+<p><code>cf login --sso</code> * then push up arrow key</p>
+<ul>
+<li><p>Next, get and enter a one-time authorization code to login into cloud.gov</p></li>
+<li><p>You can checkout all the apps you have in cloud.gov by typing:</p></li>
+</ul>
+<p><code>cf apps</code></p>
+<ul>
+<li>to delete an app from cloud.gov type:</li>
+</ul>
+<p><code>cf delete [app name] -r</code></p>
+<ul>
+<li>to work on an Atom file you have to be in the right directory (hint...check the <strong>dev</strong> file for examples) type:</li>
+</ul>
+<p><code>cd [name of atom file]</code></p>
+<ul>
+<li>in case you forget <strong>git</strong> or <strong>cf</strong> commands and want a reminder, type:</li>
+</ul>
+<p><code>git [tab] or cf [tab]</code></p>
+<h2 id="creating-content-in-atom">Creating content in Atom</h2>
+<p><strong>PRO TIP:</strong> to access Atom emojis type control/command/space and 💥 they appear</p>
+<ul>
+<li><p>create a new .md file (tool bar upper left) or add to an existing file (for example index.md) and add new content using Markdown</p></li>
+<li><p>to include this new content as a link on an existing website, then add a link in the original website .md file (for example index.md)</p></li>
+<li><p>use Pandoc to <strong><em>magically</em></strong> convert the .md file to html by typing:</p></li>
+</ul>
+<p><code>pandoc [file name.md] -o [file name.html] -s</code></p>
+<ul>
+<li>to preview the website before saving it to GitHub or deploying it to Cloud.gov</li>
+</ul>
+<p><code>open [file name].html</code> * remember if you're adding new content to an existing website with a link, you need to add the link to the original .md file and update the original .html file (using same pandoc process) to include an the html link to the new content</p>
+<h2 id="saving-to-github">Saving to Github</h2>
+<p>**Remember your GitHub repo needs to include the following files:</p>
+<ol style="list-style-type: decimal">
+<li><p>index.md;</p></li>
+<li><p>index.html; *(note &quot;index.html&quot; file name is important for pushing to cloud.gov but doesn't really matter for GitHub)</p></li>
+<li><p>manifest.yml *(which can be copied and reused from another repo if you're pushing content to an existing website, if it's going to a different website then it'll need a new name in the .yml file)**</p></li>
+</ol>
+<ul>
+<li>to see what files you've got in GitHub already type:</li>
+</ul>
+<p><code>git status</code></p>
+<p><code>git pull</code></p>
+<ul>
+<li>to save all your updated Atom files to GitHub type:</li>
+</ul>
+<p><code>git add .</code></p>
+<ul>
+<li>commit and push those changes to GitHub by typing:</li>
+</ul>
+<p><code>git commit -m &quot;[include a description of the change]&quot;</code></p>
+<p><code>git push</code></p>
+<h2 id="pushing-content-into-the-ether-from-atom-to-cloud.gov">Pushing content into the ether from Atom to Cloud.gov</h2>
+<ul>
+<li>Just type:</li>
+</ul>
+<p><code>cf push</code></p>
+<h2 id="and-viola-its-there-for-all-the-world-to-see...">And viola it's there for all the world to see...</h2>
+<p>👋 🌎</p>
+</body>
+</html>
