@@ -3,7 +3,7 @@
 
 1. How to **write** Markdown content in **Atom**
 2. How to **convert** Markdown to html using **Pandoc**
-3. How to **save** that content in **Github** (so TechRandy can make pull requests); and
+3. How to **save** that content in **Github** (so [TechRandy]() can make pull requests); and
 4. How to **deploy** that content to the internet using **cloud.gov**
 
 ## Getting Started
