@@ -13,6 +13,7 @@
   ```
   cf login --sso
   ```
+
 * then push up arrow key
 
 * Next, get and enter a one-time authorization code to login into cloud.gov
@@ -62,17 +63,18 @@
 * remember if you're adding new content to an existing website with a link, you need to add the link to the original .md file and update the original .html file (using same pandoc process) to include an the html link to the new content
 
 ## Saving to Github
-**Remember your GitHub repo needs to include the following files:
+- **Remember your GitHub repo needs to include the following files:**
 
-1. index.md;
+  1. index.md;
 
-2. index.html;
-  *(note "index.html" file name is important for pushing to cloud.gov but doesn't really matter for GitHub)
+  2. index.html;
+      * (note "index.html" file name is important for pushing to cloud.gov but doesn't really matter for GitHub)
 
-3. manifest.yml
-  *(which can be copied and reused from another repo if you're pushing content to an existing website, if it's going to a different website then it'll need a new name in the .yml file)**
+  3. manifest.yml
 
-* to see what files you've got in GitHub already type:
+      * (which can be copied and reused from another repo if you're pushing content to an existing website, if it's going to a different website then it'll need a new name in the .yml file)
+
+- to see what files you've got in GitHub already type:
 
   ```
   git status
@@ -87,7 +89,7 @@
   ```
   git add .
   ```
-  
+
 * commit and push those changes to GitHub by typing:
 
   ```
