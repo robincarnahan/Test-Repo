@@ -60,6 +60,7 @@
   ```
   open [file name].html
   ```
+
 * remember if you're adding new content to an existing website with a link, you need to add the link to the original .md file and update the original .html file (using same pandoc process) to include an the html link to the new content
 
 ## Saving to Github
