@@ -49,6 +49,8 @@
 
 * to include this new content as a link on an existing website, then add a link in the original website .md file (for example index.md)
 
+* create a new .html file (for example index.html)
+
 * use Pandoc to **_magically_** convert the .md file to html by typing:
 
   ```
