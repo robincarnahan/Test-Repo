@@ -8,4 +8,4 @@ Thanks to Steven and Greg for teaching the magic
 
 ![USA by night](https://svs.gsfc.nasa.gov/vis/a000000/a004000/a004019/E_W_north_america.0001.jpg)
 
-[And there's more](page2.html)
+**And** there's more [here](page2.html) and [here](page3.html).
