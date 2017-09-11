@@ -10,5 +10,6 @@ Thanks to Steven and Greg for teaching the magic
 
 **And** there's more!  To see my very first effort go [here](page2.html). And for an explanation of how to add content using only GitHub pages go [here](page3.html).
 
-It's still all very mysterious though not quite as cool as 
-![cat eclpise viewing] (https://github.com/robincarnahan/Test-Repo/blob/robincarnahan-patch-4/IMG_0528.JPG)
+It's still all very mysterious but nothing quite like...
+
+![cat eclpise viewing](IMG_0528.JPG)
