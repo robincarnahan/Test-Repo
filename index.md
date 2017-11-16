@@ -6,7 +6,7 @@ Thanks to Steven and Greg for teaching the magic
 
 [Here's how they did it](howto.html)
 
-![USA by night](https://svs.gsfc.nasa.gov/vis/a000000/a004000/a004019/E_W_north_america.0001.jpg)
+![USA by night](https://svs.gsfc.nasa.gov/vis/a000000/a004000/a004019/E_W_north_america.0001.jpg) {:height="36px" width="36px"}
 
 **And** there's more!  To see my very first effort go [here](page2.html). And for an explanation of how to add content using only GitHub pages go [here](page3.html).
 
