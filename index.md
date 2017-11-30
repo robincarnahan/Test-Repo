@@ -1,4 +1,10 @@
-# It's datestamp.html and his is my first website
+# It's <p id="demo">
+Display the result here.
+</p>
+<script>
+document.getElementById("demo").innerHTML = new Date();
+</script>
+ and his is my first website
 
 Thanks to Steven and Greg for teaching the magic
 
