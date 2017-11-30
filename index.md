@@ -1,4 +1,4 @@
-# It's [](datestamp.html) and his is my first website
+# It's ![date](datestamp.html) and his is my first website
 
 Thanks to Steven and Greg for teaching the magic
 
