@@ -7,7 +7,7 @@ Thanks to Steven and Greg for teaching the magic
 
 ## Feels life changing...
 
-[Here's what they taught me](howto.html) about **using Atom and the terminal.**
+[Here's what they taught me](howto.html) about using **Atom** and the **terminal.**
 
 ![USA by night](https://svs.gsfc.nasa.gov/vis/a000000/a004000/a004019/E_W_north_america.0001.jpg)
 
