@@ -1,4 +1,7 @@
-# It's <p id="demo">Display the result here.</p> <script> document.getElementById("demo").innerHTML = new Date(); </script> and this is my first website.
+# It's <span id="demo">Display the result here.</span> and this is my first website.
+<script> 
+document.getElementById("demo").innerHTML = new Date(); 
+</script> 
 
 Thanks to Steven and Greg for teaching the magic
 
