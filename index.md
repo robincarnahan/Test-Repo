@@ -1,6 +1,10 @@
 # It's <span id="demo">Display the result here.</span> and this is my first website.
 <script>
-document.getElementById("demo").innerHTML = new Date();
+var now = new Date();
+var month = now.getMonth()+1;
+var day = now.getDay();
+var year = now.getFullYear();
+document.getElementById("demo").innerHTML = month + "/" + day + "/" + year;
 </script>
 
 Thanks to Steven and Greg for teaching the magic
