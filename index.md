@@ -2,7 +2,7 @@
 <script>
 var now = new Date();
 var month = now.getMonth()+1;
-var day = now.getDay();
+var day = now.getDate();
 var year = now.getFullYear();
 document.getElementById("demo").innerHTML = month + "/" + day + "/" + year;
 </script>
