@@ -111,6 +111,26 @@
   cf push
   ```
 
+## Pushing content from GitHub Pages to local machine and then to Cloud.gov
+
+* Make and Commit changes in GitHub then pull those into local machine by typing;
+
+```
+git pull
+```
+
+* Remember to update the .html file for whatever you've made changes to by typing:
+
+```
+pandoc [file name.md] -o [file name.html] -s
+  ```
+  
+* Then push that to Cloud.gov by typing:
+
+  ```
+  cf push
+  ```
+
 ## And voilá it's there for all the world to see...
 
 👋  🌎
