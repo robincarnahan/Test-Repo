@@ -1,7 +1,7 @@
 # It's <span id="demo">Display the result here.</span> and this is my first website.
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.3/moment.min.js"></script>
 <script>
-document.getElementById("demo").innerHTML = moment().format("MMMM Do YYYY, h:mm a");
+document.getElementById("demo").innerHTML = moment().format("dddd, MMMM Do YYYY [at] h:mm a");
 </script>
 
 Thanks to Steven and Greg for teaching the magic
