@@ -16,6 +16,8 @@ Thanks to Steven and Greg for teaching the magic
 
 * And for an explanation of how to add content using only **GitHub pages** go *[here](page3.html)*.
 
+* I even added a special page for [Tech Randy](techrandy.html).
+
 It's still all very mysterious but nothing quite like...
 
 ![cat eclipse viewing](IMG_0528.JPG)
