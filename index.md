@@ -12,7 +12,7 @@ Thanks to Steven and Greg for teaching the magic
 
 * To see my very first effort go [here](page2.html).
 
-* [Here's what they taught me](howto.html) about using **Atom** and the **terminal.**
+* [Here's what they taught me](howto.html) about using **Atom** and the **command line.**
 
 * And for an explanation of how to add content using only **GitHub pages** go *[here](page3.html)*.
 
