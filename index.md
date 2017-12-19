@@ -3,6 +3,7 @@
 <script>
 document.getElementById("demo").innerHTML = moment().format("dddd, MMMM Do YYYY [at] h:mm a");
 </script>
+The current weather in San Francisco is (http://api.wunderground.com/api/Your_Key/conditions/q/CA/San_Francisco.json)
 
 Thanks to Steven and Greg for teaching the magic
 
