@@ -26,6 +26,8 @@ Thanks to Steven and Greg for teaching the magic
 
 * I even added a special page for [Tech Randy](techrandy.html).
 
+* Greg then taught me how to [add dynamic content] (dynamicfeature.html) to an otherwise static website and how to [use an API] (addapi.html) to pull data into the website.
+
 It's still all very mysterious but nothing quite like...
 
 ![cat eclipse viewing](IMG_0528.JPG)
