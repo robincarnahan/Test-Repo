@@ -4,7 +4,7 @@
 <script>
 document.getElementById("demo").innerHTML = moment().format("dddd, MMMM Do YYYY [at] h:mm a");
 $.ajax({
-  url: "http://api.wunderground.com/api/c7565b96782d982e/conditions/q/CA/San_Francisco.json",
+  url: "https://api.wunderground.com/api/c7565b96782d982e/conditions/q/CA/San_Francisco.json",
   success: function( result ) {
     $( "#weather-temp" ).html( "<strong>" + result.temp_f + "</strong> degrees" );
   }
