@@ -6,7 +6,9 @@ document.getElementById("demo").innerHTML = moment().format("dddd, MMMM Do YYYY 
 $.ajax({
   url: "https://api.wunderground.com/api/c7565b96782d982e/conditions/q/MO/Saint_Louis.json",
   success: function( result ) {
-    $( "#weather-temp" ).html( "<strong>" + result.current_observation.weather.temp_f + "</strong> degrees" );
+    var weather=result.current_observation.weather;
+    var temp_f=result.current_observation.temp_f
+    $( "#weather-temp" ).html( "<strong>" + weather + " " + temp_f + "</strong> degrees" );
   }
 });
 </script>
