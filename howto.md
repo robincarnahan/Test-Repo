@@ -18,6 +18,12 @@
 
 * Next, get and enter a one-time authorization code to login into cloud.gov
 
+* Find your current directory by typing:
+
+  ```
+  ls
+  ```
+
 * You can checkout all the apps you have in cloud.gov by typing:
 
   ```
