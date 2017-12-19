@@ -4,13 +4,13 @@
 <script>
 document.getElementById("demo").innerHTML = moment().format("dddd, MMMM Do YYYY [at] h:mm a");
 $.ajax({
-  url: "https://api.wunderground.com/api/c7565b96782d982e/conditions/q/CA/San_Francisco.json",
+  url: "https://api.wunderground.com/api/c7565b96782d982e/conditions/q/MO/Saint_Louis.json",
   success: function( result ) {
     $( "#weather-temp" ).html( "<strong>" + result.current_observation.temp_f + "</strong> degrees" );
   }
 });
 </script>
-The current weather in San Francisco is <span id="weather-temp">Display the result here.</span>
+The current weather in Saint Louis is <span id="weather-temp">Display the result here.</span>
 
 Thanks to Steven and Greg for teaching the magic
 
