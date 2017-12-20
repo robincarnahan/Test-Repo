@@ -48,6 +48,8 @@
   git [tab] or cf [tab]
   ```
 
+**PRO TIP:** to avoid typos, just type the first few letters of your file and then hit *tab* and it fills in the rest of the word!
+
 ## Creating content in Atom
   **PRO TIP:** to access Atom emojis type control/command/space and 💥  they appear
 
@@ -130,7 +132,7 @@ git pull
 ```
 pandoc [file name.md] -o [file name.html] -s
   ```
-  
+
 * Then push that to Cloud.gov by typing:
 
   ```

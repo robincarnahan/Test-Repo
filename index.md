@@ -1,4 +1,4 @@
-# It's <span id="demo">Display the result here.</span> and this is my first website.
+# It's <span id="demo">Display the result here.</span> (notice this nice dynamic feature!) and this is my first website.
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.3/moment.min.js"></script>
 <script>
@@ -8,11 +8,11 @@ $.ajax({
   success: function( result ) {
     var weather=result.current_observation.weather;
     var temp_f=result.current_observation.temp_f
-    $( "#weather-temp" ).html( "<strong>" + weather + " " + temp_f + "</strong> degrees" );
+    $( "#weather-temp" ).html( "<strong>" + weather + " and " + temp_f + "</strong> degrees" );
   }
 });
 </script>
-The current weather in Saint Louis is <span id="weather-temp">Display the result here.</span>
+The current weather in **Saint Louis** is <span id="weather-temp">Display the result here.</span> (this weather report is my first use of an API to pull data!)
 
 Thanks to Steven and Greg for teaching the magic
 
